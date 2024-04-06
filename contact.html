@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Portfolio - Contact</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -24,7 +24,7 @@
                 <li class="nav-button">
                     <a href="extras.html">
                         <img src="Resources/suitcase-solid.svg" alt="suitcase icon" width="24px">
-                        Extras
+                        Projects
                     </a>
                 </li>
                 <li class="nav-button">
@@ -44,14 +44,6 @@
 
         <div id="contact-page">
             <h1>Contact me!</h1>
-
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
             
             <div class="error" id="error-msg">
                 Please fix the errors below to submit your form.
@@ -60,19 +52,19 @@
             <p>Please note, fields marked with an asterisk are required.</p>
 
             <form action="">
-                <h2>First Name*</h2>
+                <label for="first-name">First Name*</label>
                 <input type="text" name="first-name" id="firstname-field">
 
-                <h2>Last Name*</h2>
+                <label for="last-name">Last Name*</label>
                 <input type="text" name="last-name" id="lastname-field">
 
-                <h2>Email*</h2>
+                <label for="email">Email*</label>
                 <input type="email" name="email" id="email-field">
 
-                <h2>Subject*</h2>
+                <label for="subject">Subject*</label>
                 <input type="text" name="subject" id="subject-field">
 
-                <h2>Message*</h2>
+                <label for="message-field">Message*</label>
                 <textarea name="message" id="message-field" cols="40" rows="10" maxlength="400"></textarea>
                 <p class="small-text">400 characters max</p>
 

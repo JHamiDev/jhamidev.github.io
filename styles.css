@@ -351,9 +351,11 @@ body.mode-night #contact-page {
     background-color: #5b5b5b;
 }
 
-/* input[type=checkbox] {
-    margin-bottom: 20px;
-} */
+label {
+    display: block;
+    padding-top: 15px;
+    font-size: x-large;
+}
 
 .desktop-only {
     display: none;
