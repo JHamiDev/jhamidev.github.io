@@ -53,6 +53,10 @@ nav a {
     font-size: 16px;
 }
 
+body.mode-night nav a {
+    color: black;
+}
+
 nav a.toggle-button {
     margin: 5px 0;
     text-decoration: none;
