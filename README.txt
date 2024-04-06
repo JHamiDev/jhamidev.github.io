@@ -2,6 +2,8 @@ This website is a continuation of the website that I made for the second assignm
 I have reused the html and css code from the second assignment (which uses html code from the first assignment).
 I also changed the visual style of the pages a little bit.
 
+The website is hosted online at: jhamidev.github.io
+
 File Structure:
     A3/
 	Resources/
