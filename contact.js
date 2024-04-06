@@ -11,7 +11,14 @@ submit.addEventListener("click", function validate(event) {
         if (!element.value) {
             element.classList.add("error");
         } else {
-            element.classList.remove("error");
+            const emailRegex = /^[^\s@]+@[^\s@]+.[^\s@]+$/;
+            if (element.id == "email-field") {
+                if (!emailRegex.test(element.value)) {
+                    element.classList.add("error");
+                } else {
+                    element.classList.remove("error");
+                }
+            }
         }
     }
 
